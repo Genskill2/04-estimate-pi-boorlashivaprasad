@@ -26,12 +26,12 @@ int main(void) {
 float wallis_pi(int n)
 {
   float pi=2;
-  float a1,a2;
+  float v1,v2;
   for(int i=1;i<=n;i++)
    {
-      a1 = 4*i*i;
-      a2 = a1-1;
-      pi *= a1/a2;
+      v1 = 4*i*i;
+      v2 = v1-1;
+      pi *= v1/v2;
    }
    return pi;
 }
